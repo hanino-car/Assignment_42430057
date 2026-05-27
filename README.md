@@ -1,9 +1,14 @@
 # Assignment_42430057
-LIU web project.
+# Web App Project For the Course `CSCI390` By Hanin 
+#### Dear viewer,
+this github repository represents a web app project for the CSCI390 coure at LIU university.
+For now, the app has only a frontend part as requested by our doctor. Migration to a real database and a 
+backend server is expected later on.
+
 <!-- ![test image](assets/test.png) -->
 
 
-# Getting Started with Create React App
+# How to run 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
