@@ -7,6 +7,7 @@ function Header() {
 
   const {cart} = useCart() //from cart context
   const navigate = useNavigate()
+  
 
   return (
     <header className="header">
