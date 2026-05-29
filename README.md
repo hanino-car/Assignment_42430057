@@ -70,3 +70,23 @@ serve -s build
 
 # Screenshots of the UI
 
+## Home Page
+
+![Home Page](assets/HomePage.jpg)
+
+## Product Details Page
+
+![Product Details Page](assets/ProductDetailsPage.jpg)
+
+## Cart Page
+
+![Cart Page](assets/CartPage.png)
+
+## Checkout Part
+
+![Checkout Part](assets/Checkout.png)
+
+## Feedbacks Page
+
+![Feedbacks Page](assets/Feedbacks.png)
+
