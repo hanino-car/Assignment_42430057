@@ -1,80 +1,72 @@
-# Assignment_42430057
-# Web App Project For the Course `CSCI390` By Hanin 
-#### Dear viewer,
-this github repository represents a web app project for the CSCI390 coure at LIU university.
-For now, the app has only a frontend part as requested by our doctor. Migration to a real database and a 
-backend server is expected later on.
+# CSCI390: Web Application Project
 
-<!-- ![test image](assets/test.png) -->
+### Assignment 42430057 | Lebanese International University (LIU)
 
+**Developer:** Hanin
 
-# How to run 
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This repository contains a modern web application developed as part of the **CSCI390 Web Application Development** course at **Lebanese International University (LIU)**.
 
-In the project directory, you can run:
+> **Current Status:**
+> This project currently works as a standalone frontend web application, with data handled locally in the browser. A backend server and database may be added in future updates.
 
-### `npm start`
+**Live Deployment:** [View the Live Web App on Vercel](https://assignment-42430057.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> **Note:** Since the application is hosted on a free deployment tier, the first page load may take a few seconds to load.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Setup Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow the steps below to clone, install, and run the project locally on a Windows machine.
 
-### `npm run build`
+### 1. Clone the Repository and Navigate to the Project Folder
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open a terminal then clone into the repo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. Install Dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install npm packages:
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3. Running the app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Development Mode
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm run start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The application will open in your browser at:
 
-## Learn More
+```bash
+http://localhost:3000
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Production Mode
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To generate and preview the optimized production build locally, run:
 
-### Code Splitting
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Then serve the generated build folder using `serve`:
 
-### Analyzing the Bundle Size
+```bash
+npm install -g serve
+serve -s build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> Or, the generated `build` folder can be served through an Express.js backend server.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Screenshots of the UI
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
